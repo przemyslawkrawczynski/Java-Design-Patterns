@@ -44,7 +44,7 @@ public class Watcher {
             long startProcess = System.currentTimeMillis();
             resultMethod = proceedingJoinPoint.proceed();
             long endProcess = System.currentTimeMillis();
-            LOGGER.info("Time consumed to Order Process: " + (startProcess  - endProcess) + "ms.");
+            LOGGER.info("Time consumed to Order Process: " + (endProcess - startProcess) + "ms.");
         } catch (Throwable throwable) {
             System.out.println("I`m here");
             LOGGER.error(throwable.getMessage());
