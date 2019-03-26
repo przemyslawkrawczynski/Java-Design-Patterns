@@ -14,7 +14,7 @@ public class OrderFacade {
     private ShopService shopService;
     private static final Logger LOGGER = LoggerFactory.getLogger(OrderFacade.class);
 
-    public void processOrder(final OrderDto order, final Long userId) throws OrderProcessigException {
+    public void processOrder(OrderDto order, Long userId) throws OrderProcessigException {
 
         boolean wasError = false;
         long orderId = shopService.openOrder(userId);
