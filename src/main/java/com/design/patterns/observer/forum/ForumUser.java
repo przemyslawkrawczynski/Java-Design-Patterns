@@ -1,4 +1,4 @@
-package com.design.patterns.observer;
+package com.design.patterns.observer.forum;
 
 public class ForumUser implements Observer {
     private final String username;

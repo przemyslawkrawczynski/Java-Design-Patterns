@@ -1,4 +1,4 @@
-package com.design.patterns.observer;
+package com.design.patterns.observer.forum;
 
 public interface Observer {
     void update(ForumTopic forumTopic);

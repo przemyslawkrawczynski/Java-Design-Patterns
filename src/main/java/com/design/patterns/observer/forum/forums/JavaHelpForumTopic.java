@@ -1,6 +1,6 @@
-package com.design.patterns.observer.forums;
+package com.design.patterns.observer.forum.forums;
 
-import com.design.patterns.observer.ForumTopic;
+import com.design.patterns.observer.forum.ForumTopic;
 
 public class JavaHelpForumTopic extends ForumTopic {
     public JavaHelpForumTopic() {

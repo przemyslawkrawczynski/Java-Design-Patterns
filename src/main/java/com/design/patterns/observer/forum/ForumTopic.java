@@ -1,4 +1,4 @@
-package com.design.patterns.observer;
+package com.design.patterns.observer.forum;
 
 import java.util.ArrayList;
 import java.util.List;

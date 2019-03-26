@@ -1,7 +1,9 @@
 package com.design.patterns.observer;
 
-import com.design.patterns.observer.forums.JavaHelpForumTopic;
-import com.design.patterns.observer.forums.JavaToolsForumTopic;
+import com.design.patterns.observer.forum.ForumTopic;
+import com.design.patterns.observer.forum.ForumUser;
+import com.design.patterns.observer.forum.forums.JavaHelpForumTopic;
+import com.design.patterns.observer.forum.forums.JavaToolsForumTopic;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
